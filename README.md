@@ -1,5 +1,7 @@
 # GitHub Diff Filter for Chrome
 
+Can be found on the [Chrome Web Store](https://chrome.google.com/webstore/detail/github-diff-filter/opkhofgfcebfpiodcaonbfheekjkaidg)
+
 Allows user to filter out certain diffs by filename.
 Button allows to toggle the filter on and off.
 
