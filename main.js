@@ -2,7 +2,7 @@ $(document).ready(function() {
 	var input = "<input id='diffToggleInput' type='text' placeholder='Enter filter here' />"
 	var button = "<button id='diffToggleButton' style='margin-left:1em;'>Toggle Hidden Diffs</button>"
 
-	$('#diff').prepend(input + button);
+	$('#toc').prepend(input + button);
 
 	var filterText = $('#diffToggleInput').val();
 
