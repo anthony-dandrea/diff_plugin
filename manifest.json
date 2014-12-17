@@ -10,7 +10,6 @@
     "128" : "images/gitdiff_128.png"
   },
   "browser_action": {
-    "default_icon": "fur.png",
     "default_popup": "popup.html"
   },
   "permissions": [
@@ -18,7 +17,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://github.com/*", "https://gh.*"],
+      "matches": ["<all_urls>", "http://*/*", "https://*/*"],
       "js": ["jquery.js", "main.js"],
       "all_frames": true
     }
